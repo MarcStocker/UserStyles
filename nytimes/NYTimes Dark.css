@@ -1,0 +1,375 @@
+@-moz-document domain("mobile.nytimes.com"), domain("nytimes.com") {
+/* Created by Marc Stocker */
+/*=======================================*/
+/*             Colors Used               */
+/*======================================= 
+
+			== Background Colors ==
+Background		#1e2124
+Main Body		#36393e
+Headers			#2b2b30
+
+Cmmt cnt Bubble #1e1e1e
+
+			  == Text Colors ==
+Headline Text	#f9f9f9
+Body Text		#a5a5a5
+Author/Date		#eee
+
+HyperLinks		#4494d0
+Hyper:visited	#366f9a
+Hyper:hover		#0e87e2
+
+Image Caption	#ccc
+
+
+
+
+
+
+
+
+
+*/
+}
+
+@-moz-document domain("nytimes.com") {
+/* Non-Mobile Site */
+
+/* ------------------ Backgrounds ---------------- */
+
+/* Audio Player - Background*/
+.art19-web-player *, .art19-web-player a, .art19-web-player button, .art19-web-player div, .art19-web-player img, .art19-web-player li, .art19-web-player p, .art19-web-player span, .art19-web-player ul, div.art19-web-player *, div.art19-web-player a, div.art19-web-player button, div.art19-web-player div, div.art19-web-player img, div.art19-web-player li, div.art19-web-player p, div.art19-web-player span, div.art19-web-player ul
+{ background-color: rgb(82, 88, 96); }
+/* Audio Player - Progress bar, Buffered */
+.art19-web-player.awp-micro .awp .awp-ad-buffered, .art19-web-player.awp-micro .awp .awp-buffered, .art19-web-player.awp-micro[class*="awp-theme"] .awp .awp-ad-buffered, .art19-web-player.awp-micro[class*="awp-theme"] .awp .awp-buffered, div.art19-web-player.awp-micro .awp .awp-ad-buffered, div.art19-web-player.awp-micro .awp .awp-buffered, div.art19-web-player.awp-micro[class*="awp-theme"] .awp .awp-ad-buffered, div.art19-web-player.awp-micro[class*="awp-theme"] .awp .awp-buffered
+{ background: #3B4249 !important }
+/* Audio Player - Progress bar, leftover */
+.art19-web-player.awp-micro .awp .awp-ad-progress-container, .art19-web-player.awp-micro .awp .awp-progress-container, .art19-web-player.awp-micro .awp .awp-volume-slider, .art19-web-player.awp-micro[class*="awp-theme"] .awp .awp-ad-progress-container, .art19-web-player.awp-micro[class*="awp-theme"] .awp .awp-progress-container, .art19-web-player.awp-micro[class*="awp-theme"] .awp .awp-volume-slider, div.art19-web-player.awp-micro .awp .awp-ad-progress-container, div.art19-web-player.awp-micro .awp .awp-progress-container, div.art19-web-player.awp-micro .awp .awp-volume-slider, div.art19-web-player.awp-micro[class*="awp-theme"] .awp .awp-ad-progress-container, div.art19-web-player.awp-micro[class*="awp-theme"] .awp .awp-progress-container, div.art19-web-player.awp-micro[class*="awp-theme"] .awp .awp-volume-slider
+{ background: #262C32 !important;}
+
+
+/* ------------------ Text ------------------ */
+
+.title, .kicker, .headline, .collection-heading, .hpHeader h6, .span-abc-region h3.collection-kicker, .hpHeader *
+{ 	color: #ddd !important; }
+li, .sfgAsset-sum, .sfgAsset-sum-reg, .module-heading, .section-heading
+{ 	color: #a5a5a5 !important; }
+
+.story-heading
+{	color: #919499 !important; }
+/* Title underline hover color */
+.hpHeader *:hover
+{ border-color: #555 !important; }
+/* Hyperlinks */
+a
+{ color: #4494D0 !important; }
+a:visited
+{ color: #366F9A !important; }
+a:hover
+{ color: #0E87E2 !important; }
+
+.nyt-logo
+{ 
+    filter: invert(.8) !important; 
+}
+
+#masthead, .editions.tab,
+#main, html, body, #navigation-edge, .navigation-edge, .tabContent, .subNavigation
+{
+ 	background-color: #2e3136 !important;   
+}
+
+.mini-navigation-menu, #mini-navigation, .portal-posts-list, .portal-post, .linked-post, .recommended-tab.selected,
+li.collection-item.active, .tab.active,
+li.collection-item.active>a>div, .collection-marker.first-collection-marker,
+.collection-marker.first-collection-marker h2,
+.sharetools-menu, .navigation, .ribbon-page-navigation.ribbon-page-navigation-has-data, #memberToolsLogin,
+#SpanABMiddleRegion
+{
+ background-color: #1d1d1d !important; 
+}
+
+.stream .story-menu-options
+{
+ 	background: linear-gradient( rgba(255,0,0,0), rgba(29, 29, 29, 1)) !important;
+}
+nav.subnavigation>ol
+{
+ 	background: linear-gradient( to left, rgba(255,0,0,0), rgba(29, 29, 29, 1)) !important;
+}
+.portal-container.variation-null.no-bold-hack.synced, .portal-footer, div.tabs-container, #recommendations,
+.ribbon-menu
+{
+ background-color: #232323 !important; 
+}
+
+#nytint-hp-watching, #recommendations
+{
+ 	border: 1px solid #777 !important;   
+}
+
+li.day-break
+{ background-color: #1d1d1d !important; }
+
+h3.kicker
+{ background:transparent !important; color: #777}
+
+/* -- News Alert -- */
+/*Outter Box*/
+.messenger.critical-alerts {
+    background-color: rgba(130, 29, 21, 0.7);
+}
+/*Inner Box*/
+.messenger .breaking-news-alerts .message-bed {
+   background-color: rgba(50, 43, 43, 0.57);
+}
+
+/* --- Loading Images --- */
+div#g-graphic{
+ 	background-color: #555;   
+}
+
+/* --- Next/Prev Arrows --- */
+/*Next Active*/
+.inside-nyt .navigation-control button .arrow.arrow-right, .inside-nyt .navigation-control button .arrow.arrow-right .arrow-conceal {
+    border-color: transparent transparent transparent #c8c0c0;
+}
+/*Prev Active*/
+.inside-nyt .navigation-control button .arrow.arrow-left, .inside-nyt .navigation-control button .arrow.arrow-left .arrow-conceal {
+    border-color: transparent #c8c0c0 transparent transparent;
+}
+/*Next Deactivated*/
+.inside-nyt .navigation-control button.deactivated .arrow.arrow-right, .inside-nyt .navigation-control button.deactivated .arrow.arrow-right .arrow-conceal {
+	border-color: transparent transparent transparent #444;
+}
+/*Prev deactivated*/
+.inside-nyt .navigation-control button.deactivated .arrow.arrow-left .arrow-conceal, .inside-nyt .navigation-control button.deactivated .arrow.arrow-left  {
+ 	   border-color: transparent #444 transparent transparent;
+}
+
+
+/* Input */
+input
+{
+    background-color: #424549 !important;
+}
+
+/* Icons */
+div.quick-navigation.button-group i.icon.sprite-icon, .masthead-button
+{
+    filter: invert(1) !important;
+}
+/*Separators*/
+.scotch-rule, section.markets::before, section.real-estate::before, section.day-part::before, section.user-subscriptions::before, .inside-nyt::before, .site-index::before, .site-index::before {
+	border-top: 1px solid #555;
+	border-bottom: 1px solid #555;
+	background-color: #444;
+}
+/*Borders*/
+/*top*/
+.well .layout, .main, .single-rule, .hpSingleRule {
+    border-top: 1px solid #555;
+}
+/*bottom*/
+.masthead.theme-in-content, .search-active .masthead {
+    border-bottom: 1px solid #555;
+}
+/*right*/
+.span-ab-layout .ab-column .split-3-layout .column {
+    border-right: 1px solid #555;
+}
+/*Background color for Borders*/
+.inside-nyt .menu.layout-horizontal li::before {
+ background-color: #555;   
+}
+
+/* GOODBYE BOX SHADOW */
+.masthead.in-content .user-tools
+{
+ 	box-shadow: none !important;   
+}
+}
+
+@-moz-document domain("nytimes.com") {
+/* Article Page - Non-mobile */
+.asdfsd
+{
+ 	display: none;   
+}
+}
+
+@-moz-document domain("mobile.nytimes.com") {
+/* Main Page - Mobile */
+
+html, body
+{
+	background-color: #1e2124 !important;
+}
+
+div.sfg, ul
+{
+	background-color: #36393e !important;
+}
+
+div.sfgAsset-span.sfgAsset-span-full-bleed.sfgAsset-span-image,
+.sfgAsset-span-video,
+.sfgAsset-span:not(.sfgAsset-span-ribbon),
+.sfg-li
+{
+ 	background: transparent !important;   
+}
+
+.sfgAsset-hed, .sfgAsset-hed-refer
+{
+   	background: transparent !important;
+    color: #ccc !important;
+}
+
+
+
+/* Text */
+li, .sfgAsset-sum, .sfgAsset-sum-reg
+{
+ 	color: #a5a5a5 !important;
+}
+
+/*Input*/
+.form-input, input, #mkt-search-submit
+{
+    background-color: #424549 !important;
+}
+}
+
+@-moz-document domain("mobile.nytimes.com"), domain("nytimes.com") {
+i.icon-logo
+{ 
+    filter: invert(.95) !important;
+}
+/* Article */
+
+html, body
+{
+ 	background-color: #1e2124;   
+}
+
+header#main-header
+{
+ 	background-color: #2e3136 !important;   
+}
+
+div.article-page, #article-box
+{ background-color: #36393e !important}
+
+div.main-search, div#main-nav
+{
+ 	background-color: #1e1e1e !important;   
+    border: #1e2c38 !important;
+}
+
+div.fixed-share-nav-outer 
+{
+ 	background-color: #191919
+}
+.imageholder>.spacer
+{
+ 	background-color: #1c1c1c !important;   
+}
+
+div.share-container, div.share-header.halt.hideOnCollapse, div.share-close-div.hideOnCollapse, 
+div.nav-tools, div.footer-content, 
+div.expandable-title.more-sections
+{ background-color: #222 !important; border: 1px solid #0c0c0c !important;} 
+
+
+div.sects-nav.expandable-container.sections-nav-tier2plus,
+footer#main-footer, div.footer,
+div.hr-grayL2,
+div.navLinks,
+div.sects-nav.expandable-container.footer-settings.srh-hide, div.expandable-title
+{ background: #36393e !important; }
+
+/* Text */
+h1.headline, /* Headline of article */
+h3#articlePromosTitle
+{
+    color: #f9f9f9 !important
+}
+/* Author */ /* Date of Article */
+.byline, .dateline
+{ color: #eee !important; }
+
+/* Paragraph text of article */
+p.p-block, p 
+{
+ 	color: #a5a5a5 !important;
+}
+
+
+/* Related Coverage text */
+div.article-related-coverage>h3
+{ color: #a5a5a5 !important; }
+
+/*span.comment-count
+{ background-color: #1e1e1e !important; }
+span.comment-count:after
+{ border: #1e1e1e !important; }
+*/
+/* Faded block for "Click to read more" Button */
+div.head
+{
+ 	background: linear-gradient(180deg,hsla(0,0%,100%,0) 0,#fff 50%,#fff)   
+}
+
+.embeddedContent
+{
+    display: none !important;
+}
+
+/* Caption Text */
+div.image-caption
+{ Color: #ccc !important; }
+
+/* Button */
+.button
+{
+ 	background-color: #222 !important;
+    color: #ccc !important;
+}
+
+/* Modal */
+.modal-backdrop, .sect-nav-shim.opened, #expand-box
+{
+    filter: invert(.8);
+}
+}
+
+@-moz-document domain("nytimes.com") {
+/* Remove Social Media and other unnecessary things */
+
+div.fixed-share-nav-outer,
+a.journalismSubPromo, #newsletter-promo,
+.notification-widget div[data-status="initial"], .collection:last-child
+{
+    display: none !important;
+}
+
+i.icon-share-more-circle
+{
+ 	background: #333 !important;   
+}
+
+
+/* Change NYT self Advertisements to Userstyle Advertisment */
+.tips-promo .text-bubble h2 a
+{
+	visibility: hidden;
+}
+.tips-promo .text-bubble h2 a:before
+{
+    display: block;
+    visibility: visible;
+    position: absolute;
+    content: 'UserStyles.com';
+}
+}
