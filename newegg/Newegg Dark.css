@@ -1,0 +1,471 @@
+@-moz-document domain("newegg.com"), domain("webcollage.net")
+{
+  :root
+  {
+    --bg-color-background: #2e2e2e;
+		/* Main Background */
+    --bg-color-first: #3e3e3e;
+		/* Grey highlight */
+    --bg-color-light-grey: #6b6b6b;
+		/* Light Grey Login Header*/
+    --bg-color-hover: #3b3b4b;
+		/* */
+    --border-color-top: #2c2c36;
+		/* */
+    --border-color-right: #2c2c36;
+		/* */
+    --border-color-bottom: #2c2c36;
+		/* */
+    --border-color-left: #2c2c36;
+		/* */
+    --text-color-first: #ffffff;
+		/* */
+    --text-color-second: #eeeeee;
+		/* */
+    --text-color-third: #b2b2b2;
+		/* */
+    --text-color-forth: #5c5c5c;
+		/* */
+    --text-color-green: #257727;
+		/* */
+    /* -------------- User Changable Values ----------------- */
+    --image-opacity: 0.75;
+  		/* 1 is brightest (completly opaque) .0 is see through */
+    --display-none: intial;
+    --text-color-links: #33B1D7;
+		/* Standard link color 	- Default(Light Blue/Cyan) */
+    --text-color-hover: #10C4FB;
+		/* Link hover color		- Default(slightly ligher than link color) */
+    --text-color-visited: #9A6EFF;
+ 		/* Visted link color 	- Default(Purple) */
+    /* -------------- User Changable Values ----------------- */;
+  }
+
+/* Darken all images */
+  .item-img, .item-brand, div.objImages, .hero-banner .swiper-slide a, .banner-area-banners a, .row-side-banners a, .ShellShocker2011 .v660 .dailyDeals a, .imgViewed>a, div.nav-row>div.nav-col>a, .newer-version-img>a, #buying-combo .combo-item-img a, #buying-combo .buying-combo-main img, img.logo, .wrap_graphics .itemImage, .dynamic-module-img img, .monetate_selectorHTML_f04c72fc center, .financing-promo-banner a, .third-party-button #goog-id-1, .third-party-button img, .shipping-group a>img, div.frequent a.item, ul.itemList img, ul#dealspreviewbar img, div.itmAddl img, div.wc-pc-manufacturer-logo img, .v660 .list_products .wrap_cell .thisItem
+  {
+    vertical-align: top;
+    opacity: var(--image-opacity);
+    transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
+  }
+
+  .item-img:hover, .item-brand:hover, div.objImages:hover, .hero-banner .swiper-slide a:hover, .banner-area-banners a:hover, .row-side-banners a:hover, .ShellShocker2011 .v660 .dailyDeals a:hover, .imgViewed>a:hover, div.nav-row>div.nav-col>a:hover, .newer-version-img>a:hover, #buying-combo .combo-item-img a:hover, #buying-combo .buying-combo-main img:hover, img.logo:hover, .wrap_graphics .itemImage:hover, .dynamic-module-img img:hover, .monetate_selectorHTML_f04c72fc center:hover, .financing-promo-banner a:hover, .third-party-button #goog-id-1:hover, .third-party-button img:hover, .shipping-group a>img:hover, div.frequent a.item:hover, ul.itemList img:hover, ul#dealspreviewbar img:hover, div.itmAddl img:hover, div.wc-pc-manufacturer-logo img:hover, .v660 .list_products .wrap_cell .thisItem:hover
+  {
+    opacity: 1 !important;
+  }
+
+  img[alt="2 Items Combo"]
+  {
+ /* Issues with "Combo" img appearing in images. Is now always set to full brightness */
+    z-index: -9999 !important;
+    opacity: 1 !important;
+  }
+
+
+/* ============================== Backgrounds ==================================*/
+  html, body, tbody, thead, th, tr, td, blockquote, font, footer,
+/* Div Boxes background */
+.article .grpOffers, .unit_gallery .wrap_inner, #ProductBuzzContainer, .aside .fieldset, .aside .grpEmail, .article #synopsis, div[style*="background:#f4f5f7;"], .nav-x-body-top-bar-wrap, .aside .grpOptions .grpPrimary, .aside .grpAction, .aside .grpButton, .footer-awards, .items-view.is-grid .item-container.is-feature-item, .items-view.is-list .item-container.is-feature-item, .list-tools-bar, .form-checkbox-title::before, #bodyCenterArea, .message-wrapper, .search-bar, .page-section-recently, .page-section-recently .swiper-box, .wish-list-items-info, .wish-list-body, .wish-list-body::after, .standard-box-top, .branding, .swiper-box, #RC-container, #RC-bodyLeftArea, #RC-bodyArea, .rebatePaginationTop, .footer-site-map, .body-top-bar-wrap, #bodyArea, .AmexCPBanner .prgSingle-container, .tab-content .tab-nav li.is-active, .v660 .rn-navSections li, body.HomePage2011, .ShellShocker2011 .v660 .synopsis, .ShellShocker2011 .v660 .shadow, .ShellShocker2011 .v660 .wrapperLower .moreDeals, .ShellShocker2011 .v660 .synopsis .wrapperUpper .wrapperLeft .grpAside, .grpSecondary, #spexWidget > #pageContainer, .main-nav-item-body, .top-nav-menu-inner, .popover-body, .social-list-dropdown .social-list
+  {
+    background: var(--bg-color-background) !important;
+  }
+
+  .page-section-gray, .main-nav-item, .promo-code-wrap .nav-row, .secondary-box, .spexWidget div, .spexWidget dl, .spexWidget dt, .spexWidget dd, .spexWidget ul, .spexWidget ol, .spexWidget li, .spexWidget h1, .spexWidget h2, .spexWidget h3, .spexWidget h4, .spexWidget h5, .spexWidget h6, .spexWidget pre, .spexWidget code, .spexWidget form, .spexWidget fieldset, .spexWidget legend, .spexWidget input, .spexWidget textarea, .spexWidget p, .spexWidget blockquote, .spexWidget th, .spexWidget td, .spexWidget img, .spexWidget a, .testimonial-numbers li, .testimonial-numbers-name, .ShellShocker2011 .v660 .frame, .ShellShocker2011 .v660 .synopsis .grpOptions, .v660 .grpAction .grpPrimary, .ShellShocker2011 .v660 .dailyDeals, .ShellShocker2011 .v660 .subscribeOthers, .ShellShocker2011 .v660 .eBlast, #main-nav-menu-list .main-nav-categories, .main-nav .menu-box-body-inner, .main-nav-subItem.is-active .main-nav-third-body, .main-nav-subItem.is-active .main-nav-third-body .popover, .main-nav-third-body .popover, .main-nav-item, .main-nav-categories, .menu-box-body-inner, .popover-compare, #pageContainer > div > .panel-heading, .loghelpModule .sectionHead, .info-group, .ShellShocker2011 .v660 .frame .topShadow, .price-guarantee-wrap, .ShellShocker2011 #wrap_shocker .overlay, .content h2
+  {
+    background: var(--bg-color-first) !important;
+  }
+/* Log-in Headers */
+  .newModule .sectionHead, .existModule .sectionHead, .info-group .ribbon .title
+  {
+    background-color: var(--bg-color-light-grey);
+  }
+
+  .at-right .popover-arrow::after, .popover.right .popover-arrow::after
+  {
+    border-right-color: #353232;
+  }
+
+  #mini-features
+  {
+    background-color: #292929;
+  }
+/* Highlight/Hover */
+  .wish-list-container:hover *
+  {
+    background-color: #1d1d1d !important;
+  }
+
+  nav.shop-region
+  {
+    background-color: #1e1e1e;
+  }
+
+  select, button
+  {
+    background: #2e2e2e !important;
+  }
+
+  span.form-select-name
+  {
+    background: #2e2e2e !important;
+  }
+
+  #overview-content .line
+  {
+    background: linear-gradient(#4e4e4e, #2f2f2f);
+  }
+/* Select fields */
+  .specialSearchOption select, .specialSearchOption input, input, select, textarea
+  {
+    border: 1px solid #555;
+  }
+
+  li.social-follow-item a
+  {
+    color: #ddd !important;
+  }
+
+  dd em, dd[style*="font-weight:bold;font-style:italic;"]
+  {
+    color: #c9c9c9 !important;
+  }
+
+  div#baBreadcrumbTop a
+  {
+    color: #33b1d7 !important;
+  }
+
+
+
+/* ================================ Text ================================= */
+/*Black*/
+  .button-primary, .button-primary:focus, .button-primary:link, .button-primary:visited
+  {
+    color: #111 !important;
+  }
+/*White*/
+  select, span, code, textarea, pre, label, div, dd, option, .v660.background_F6F0E2 .current, .v660.background_F6F0E2 .priceFinal, .v660.background_F6F0E2 em, .price-note-dollar, .v660 #qtyMainItems, .price-current
+  {
+    color: white;
+  }
+
+  .selection tbody .selected-shpping-blue label
+  {
+    color: orange !important;
+  }
+
+/*white-ish*/
+  optgroup option, .grpSelector button, .price2012 .price-shellshocker .price-current-label, h1, h2, h3, h4, h5, .additional-sellers h2, .aside .grpServices h2, .v660 #synopsis .grpServices h5, #promoSimilar .unit_gallery .head .title, #buying-options h2, #buying-options .table .price-current, #buying-options .table .price-current sup, input, #mini-features .mini-features-price .price-current sup, #mini-features .mini-features-price .price-current
+  {
+    color: #eee;
+  }
+/*Light Grey*/
+  .social-button, .marketplace-nav-top-title, a[title="Wish List"], #haQuickSearchTextbox input:focus, .HomePage2011 #newHeaderSearchTools #haQuickSearchTextbox input:focus, .HomePage2011 #newHeaderSearchTools #autofilledview .wrap_description .descText, .bottomModule .title, .rebateShipping, optgroup, .code label, .zip-code label, .sold-by, .info-group, .button-tertiary, .page-title-text, .breadcrumb>li.is-current, .secondary-box-title, .menu-box-title, #buying-combo h2, #buying-combo .combo-item .price-current, #buying-combo .combo-item .price-current sup, .additional-sellers .sellers-list-item .price-current, .additional-sellers .sellers-list-item .price-current sup, .additional-sellers li.sellers-list-item .newegginfo, .additional-sellers li.sellers-list-item a, div, p, ul, ol, table, dl, blockquote, pre, .testimonial-numbers-num, .testimonial-numbers-name, .ShellShocker2011 .v660 .grpAside .addInfo, .ShellShocker2011 .v660 .itemDetails .grpDesc ul, .ShellShocker2011 .v660 .eBlast li, .ShellShocker2011 .v660 .eBlast h4, .newer-version .newer-version-price .price-current, .v660.background_F6F0E2 .h1, .v660.background_F6F0E2 .legend, .v660.background_F6F0E2 .list_features, .v660.background_F6F0E2 .navSections li, .v660.background_F6F0E2 .navSuggest .title, .v660.background_F6F0E2 h2.sectionTitle, .v660.background_F6F0E2 h3, .v660.background_F6F0E2 legend, .v660.background_F6F0Ek h6, #buying-options .table td, .selection thead tr, .info-group .ribbon .title, .price2012 .price-shellshocker-frequent .price-current, .price2012 .price-shellshocker-frequent-combine .price-current, .popover-msg-title, .content p
+  {
+    color: #b2b2b2;
+  }
+
+  .menu-box-note, #spexWidget .panel-heading > h4 > a, #wc-aplus *, #wc-aplus h2, #wc-aplus h2 *, #wc-aplus h3, #wc-aplus h3 *, #wc-aplus h4, #wc-aplus h4 *, #wc-aplus .wc-more-info-title, #wc-reset, #wc-reset *
+  {
+    color: #b2b2b2 !important;
+  }
+/* Lighter Grey */
+  .grpSelector .itmSelector .value, .price2012 .price-was, .ShellShocker2011 .v660 .eBlast h3, .ShellShocker2011 .v660 .eBlast label, .aside .grpEmail .text, #buying-options .table th, .eggpoints-points, .eggpoints-earn, .eggpoints-upto, .ShellShocker2011 .v660 .section h2, .ShellShocker2011 .v660 .comboPricing .itemCounts, .v660 .combinePricing .itemCounts, #mini-features .mini-features-info .note-inventory #landingpage-mini-features-stock span, #mini-features .mini-features-price .price-ship .is-normal, .ShellShocker2011 .promo
+  {
+    color: #9a9a9a;
+  }
+/*Faded grey*/
+  .grpNote .grpNote-ship-by, .grpNote .grpNote-sold-by a, .AmexCPBanner .neg_clause, .grand-total-notes, .v660 em, .ShellShocker2011 .v660 .sideSection h2, .top-nav-service-tel > span, .button-tertiary:active, .button-tertiary:hover, .assistance .title
+  {
+    color: #5c5c5c;
+  }
+/* Page Title 
+.page-title-text, .breadcrumb>li.is-current {
+ 	color: #4a7886;
+}*/
+/*Green Prices*/
+  .price2012 .price-note-dollar
+  {
+    color: #257727;
+  }
+
+
+/*----- links ------*/
+
+  a, .item-container-grid .item-title, #wc-aplus .wc-more-info-links a, #wc-aplus .wc-more-info-links a:visited, #wc-aplus .wc-more-info-links a:active, #wc-reset #wc-rating-question-top a:link, #wc-reset #wc-rating-question-top a:link *, #wc-reset #wc-rating-question-top a:hover, #wc-reset #wc-rating-question-top a:hover *, #wc-reset #wc-rating-question-top a:active, #wc-reset #wc-rating-question-top a:active *, #wc-reset #wc-rating-question-top a:visited, #wc-reset #wc-rating-question-top a:visited *
+  {
+    color: var(--text-color-links) !important;
+  }
+
+  a:hover, .item-rating:hover .item-rating-num, .v660 a:focus em, .v660 a:hover em, #wc-aplus .wc-more-info-links a:hover, #wc-reset #wc-rating-question-top a:link, #wc-reset #wc-rating-question-top a:link *, #wc-reset #wc-rating-question-top a:hover, #wc-reset #wc-rating-question-top a:hover *, #wc-reset #wc-rating-question-top a:active, #wc-reset #wc-rating-question-top a:active *, #wc-reset #wc-rating-question-top a:visited, #wc-reset #wc-rating-question-top a:visited *
+  {
+    color: var(--text-color-hover) !important;
+  }
+
+  a:visited
+  {
+    color: var(--text-color-visited) !important;
+  }
+
+  .btn.btn-primary.has-icon-right.fa-caret-down
+  {
+    color: #000 !important;
+  }
+
+/* ============================ Input fields and Buttons =================================== */
+  textarea, pre, input, code
+  {
+    background: #333333 !important;
+  }
+/* Change focus border color to lighter blue, remove box shadow */
+  .form-text:focus, .form-price input:focus, .form-select select:focus + .form-select-name, .form-text:focus, .form-textarea:focus
+  {
+    border-color: rgba(84, 204, 232, 0.5);
+    box-shadow: none;
+  }
+/* ========================= Buttons ========================== */
+  .btn
+  {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    color: #8c8c8c;
+  }
+
+  .btn-tool, .form-price
+  {
+    border-color: rgb(74, 166, 178) !important;
+  }
+
+  .btn-mini
+  {
+    color: #8c8c8c;
+    border-color: #696969;
+  }
+
+  .btn-mini:hover, .btn:hover
+  {
+    border-color: #999;
+    color: #c9c8c8;
+  }
+/* Gradient Buttons */
+  .button-tertiary, .button-tertiary:focus, .button-tertiary:link, .button-tertiary:visited
+  {
+    background: linear-gradient(to bottom,#424748,#2C3136);
+  }
+/* Featured deals button */
+  .featured-deal-bottom
+  {
+    background: linear-gradient(to bottom,#1d1b1b,#3c3a3a);
+    border: 1px solid #222;
+  }
+/* Checkboxes */
+  span.form-checkbox-title::after
+  {
+    color: #b3b3b3 !important;
+  }
+/* ======================= Borders ========================== */
+/* Darken White Borders */
+/*Box Border*/
+  .banner-area-banners li, .main-nav-item-body, .menu-box-body-inner, .list-tool-pagination .btn, .page-section-gray .swiper-box, .v660 .grpAction .grpPrimary, .ShellShocker2011 .v660 .synopsis .grpOptions, .ShellShocker2011 .v660 .dailyDeals, .ShellShocker2011 .v660 .subscribeOthers, .ShellShocker2011 .v660 .eBlast, .v660 .rn-boxContent, .v660 .rn-navSections ul, #spexWidget > #pageContainer, .dynamic-module-wrap, .popover, .top-nav-menu-inner, .ShellShocker2011 .v660 .synopsis .wrapperUpper .wrapperLeft .grpAside, #wc-aplus .wc-media-inner-wrap.wc-zoom, .form-input
+  {
+    border: 1px solid #555 !important;
+  }
+/*grid pattern*/
+  .listRowOdd, .listRowOdd td, .listRowEven, .listRowEven td
+  {
+    border-bottom: 1px solid #555;
+    border-right: 1px solid #555;
+  }
+/*Top Border*/
+  .ShellShocker2011 .v660 .wrapperLower .noDeal, .ShellShocker2011 .v660 .comboPricing, .v660 .combinePricing, .content h2
+  {
+    border-top: 1px solid #555;
+  }
+
+  .group-pricing td, .summary th
+  {
+    border-top-color: #555 !important;
+  }
+/*Bottom Border*/
+  .rebatePaginationTop, .filter-box, .items-view.is-grid .item-container.is-feature-item, .items-view.is-list .item-container.is-feature-item, .v660 .rn-navSections li.active, .v660 .rn-navSections li, .dynamic-modules, .ShellShocker2011 .v660 .wrapperLower .moreDeals
+  {
+    border-bottom: 1px solid #555;
+  }
+
+  .shipping-group, .body-top-bar-wrap
+  {
+    border-bottom-color: #555 !important;
+  }
+
+  .top-nav-menu-arrow, .top-nav-menu-arrow::after
+  {
+    border-bottom-color: #3e3e3e;
+  }
+/*Right Border*/
+  #RC-bodyLeftArea, .menu-box-split, #infoMenu, .left-nav, .ShellShocker2011 .v660 .wrapperLower .moreDeals
+  {
+    border-right: 1px solid #555;
+  }
+
+  .at-right .popover-arrow, .popover.right .popover-arrow, .shipping-group
+  {
+ /* Color only */
+    border-right-color: #555 !important;
+  }
+
+  .at-right .popover-arrow::after, .popover.right .popover-arrow::after, .shipping-group
+  {
+ /* Color only */
+    border-right-color: #3e3e3e;
+  }
+/*Left Border*/
+  .RC-grpBody #bodyCenterArea, .row.has-side-left .row-body-border, .ShellShocker2011 .v660 .wrapperLower .moreDeals
+  {
+    border-left: 1px solid #555;
+  }
+
+  .shipping-group, .at-left .popover-arrow, .popover.left .popover-arrow
+  {
+ /* Color only */
+    border-left-color: #555 !important;
+  }
+/* Borders using "Background-color" rather than "border-color" */
+  .items-view.is-grid .item-container:after, .items-view.is-grid .item-container:before, .dynamic-module:before, .dynamic-module-img:before, hr
+  {
+    background: #555;
+  }
+
+/* ===== Tabs ===== */
+  .nav-x-tab-cell span
+  {
+    color: #ebebeb;
+  }
+/*Selected*/
+  .nav-x-tab-cell.is-active
+  {
+    background: #2e2e2e !important;
+  }
+/*Inactive*/
+  .nav-x-tab-cell
+  {
+    background: #484747 !important;
+    border-color: #3b4a65;
+    border-left-color: #888;
+  }
+/*hover*/
+  .nav-x-tab-cell:hover, a.btnOn:link, .v660 .rn-navSections li:hover
+  {
+    background: #3d3d3f !important;
+  }
+
+  .v660 .rn-navSections li
+  {
+    background-image: none;
+  }
+/* =============== Page # Selection ================= */
+/*Arrows*/
+  .btn.is-current, .btn.is-current:hover
+  {
+    color: #fff !important;
+    border: 1px solid #acb2b7 !important;
+    background-color: var(--bg-color-background) !important;
+  }
+
+  .btn:hover
+  {
+    border: 1px solid #aaa;
+  }
+/* Disabled button */
+  .btn:disabled, .btn:disabled:hover
+  {
+    border: 1px solid #5a5a5a;
+    color: #5a5a5a;
+  }
+
+
+/* Symbols */
+/* Breadcrumb arrows */
+  #baBreadcrumbTop dd, .breadcrumb > li + li::before, .swiper-box-arrow-next, .swiper-box-arrow-prev
+  {
+    color: #727479;
+  }
+
+  .swiper-pagination-bullet
+  {
+    background-color: #727479;
+  }
+
+/* Tabbed Content Windows  (There was no Top Border) */
+  .v660 .rn-boxContent
+  {
+    border-top: 3px solid #777 !important;
+    background-color: #2e2e2e;
+  }
+
+  .tab-content .tab-pane
+  {
+    border-top: 2px solid #ccc !important;
+    background-color: #2e2e2e;
+  }
+
+  .grpNote .note-global-seller .global-seller-img img
+  {
+    background-color: #fff;
+  }
+
+
+/* ---- Box Shadows ---- */
+  .top-nav-menu-inner
+  {
+    box-shadow: none;
+  }
+
+/* ====== Filters ====== */
+/* "eggpoints" Img on checkout page was too dark against the dark background. Had to increase brightness. */
+  .eggpoints-icon
+  {
+    filter: brightness(2);
+  }
+
+  .has-label-membership .membership-icon
+  {
+ /* Premier Img next to price was too light */
+    filter: brightness(0.4);
+  }
+
+  .ShellShocker2011 .v660 .eBlast .email, .ShellShocker2011 .v660 .frame .notch, .ShellShocker2011 .v660 .frame a.ctrlBtnL, .ShellShocker2011 .v660 .frame a.ctrlBtnR, #wc-reset .wc-product-content-header .wc-logo
+  {
+    mix-blend-mode: color-burn;
+  }
+
+  .ShellShocker2011 .v660 .frame a.ctrlBtnL, .ShellShocker2011 .v660 .frame a.ctrlBtnR
+  {
+    filter: hue-rotate(20deg);
+  }
+
+  .icon-price-guarantee
+  {
+    filter: invert(0.75);
+  }
+
+/* Price Match Guarantee image - mix-blend-mode and invert */
+  html.win.mozilla.firefox_2 body section.section-inner div.banner div.banner-img
+  {
+    mix-blend-mode: luminosity;
+    filter: invert(0.86);
+  }
+
+    
+/* ========================= Transparent backgrounds/elements =============================== */
+  .wish-list-items-info::before, .dynamic-module-img-inner, .shop-region .social-follow-list, .social-follow-item, div.page-footer-inner ul.shop-region-list, div.page-footer-inner ul.shop-region-list li, .header-subsites, .v660 #qtyMainItems, .v660 .loading, .v660 .objImages
+  {
+    background: transparent !important;
+  }
+
+
+/* Remove Elements completely */
+  .foot.group-pricing, img[src*="promotions"]
+  {
+    display: var(--display-none);
+  }
+}

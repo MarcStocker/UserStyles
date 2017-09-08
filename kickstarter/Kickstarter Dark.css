@@ -1,0 +1,643 @@
+@-moz-document domain("kickstarter.com")
+{
+/* Created by Marc Stocker */
+/*=======================================*/
+/*             Colors Used               */
+/*======================================= 
+
+			== Background Colors ==
+Lighter Grey	- Used for Header			#323232
+Dark Grey		- Used for Body				#3b2b2b
+Darker Grey		- Used for accents, cards	#1e1e1e
+Lighter BKGD	- Used for a down Arrow		#777
+Input Field 								#ccc
+Darker Kickstarter Green					#2d9353
+
+			  == Text Colors ==
+Standard White Grey	- Used for most text	#ccc
+Standard Whiter Grey- A bit Whiter			#ddd
+Darker text			- More Bold				#
+Dark Text			- All or Nothing link	#070707
+navy-700			- Light Grey			#777
+navy-900			- Lighter Grey			#999
+
+
+
+*/;
+}
+
+@-moz-document domain("kickstarter.com")
+{
+/* Header Section */
+/* Regular Grey background and white text */
+  div.site-nav__right, div.site-nav__middle, div.site-nav__left,span.site-nav__item-label, svg.svg-icon__search,
+div.featured-project__content,
+div.promo-container, #js-do-locked-header,
+div.js-add-fixed-here.z2.t0.w100p.bg-grey-100,
+div.table-cell.col-8.bg-blue-light.p3.p10-sm.mobile-center,
+div.h100p.flex.flex-column.justify-center.items-center,
+div.activity_card, div.NS-activity--activity,
+a#js-user_nav_select
+  {
+    background-color: #323232 !important;
+    color: #ccc !important;
+  }
+
+/* 
+Dark Grey Background Coloring 
+	        and
+	     White Text
+*/
+  section.NS_projects__hero_funding.bg-grey-100, div.site-nav-frame.js-site-nav-container,
+div.site-nav-container.site-nav-container--main.active-nav--primary, 
+span.navy-700.ml2.ml0-md,
+div.py3.py10-sm.bg-white,
+section#advanced_container,
+div#main_content,
+section.staff-picks.pt3.pt10-sm.bg-white,
+section.featured-project.pt3.pb3.bg-white,
+div.py3.py7-sm.bg-violet-light.border-top,
+div.NS_projects__project_nav.js-project-nav,
+div.community-section__locations.js-community-locations,
+div.community-section__new_vs_existing,
+div.community-section__founding_backers,
+div.NS_projects__community_section,
+section.tools.js-tools.clip.hide.block-md.pt12,
+div.container-flex.relative.px2.z_overlap_slider.clearfix,
+div.featured-project.pt2.pb2.bg-white,
+/* Modal */
+div.modal_dialog_body, 
+div.bg-blue-light
+  {
+    background: #2b2b2b !important;
+    background-color: #2b2b2b !important;
+    color: #ccc;
+  }
+
+/* Dark Grey Background only */
+  div.js-faq-answer, li.js-faq
+  {
+    background-color: #2b2b2b !important;
+    box-shadow: none !important;
+  }
+/* Darker Grey Background only */
+  .tout-banner__message,
+.js-mini-footer,
+div.in-page-alert,
+div.timeline__divider.timeline__divider--successful,
+div.timeline__divider_content,
+div.featured-project__content,
+div.community-block-content.clearfix,
+div.founding-backer.community-block-content,
+header.bg-color-.bg-grey-light.category-hero.hero-.js-category-hero.with_background,
+body.users_edit,
+div.js-add-padding-here, div#js-do-content-start,
+/* Must be signed in to comment */
+div#new_comment,
+/* Creator Comments */
+li.NS_comments__comment.collaborator.comment.item.mb3.py3,
+/* Create Project FAQ */
+li.faq>div, li.faq.expanded>div, li.faq>a,
+/* Login Page */
+div#login, div.rounded-content-frame__footer, div.rounded-content-frame__content
+  {
+    background-color: #1e1e1e !important;
+  }
+
+  div.user-menu-footer
+  {
+    background: #1e1e1e !important;
+    color: #ccc !important;
+  }
+
+/* Lighter Background */
+  div.down-arrow.js-hero-scroll, div.friends-tout__stat
+  {
+    background-color: #777 !important;
+  }
+
+/* Other Background Colors */
+  .bg-green
+  {
+    background-color: #2c8e50 !important;
+  }
+
+  .table_light
+  {
+    background-color: #777 !important;
+  }
+
+  th.sortable, th.desc, table.table_light>thead>tr>th
+  {
+    background-color: #666 !important;
+  }
+
+/* Faded Modal transparent background */
+  div.modal_dialog
+  {
+    background-color: rgba(7,27,27,0.9);
+  }
+
+/* White Text */
+  div.medium, span.navy-700,
+data, div.project-card-content>p,
+div.js-faq-answer>div>p,
+a.grey-dark,
+div.subtitle, div.right>div,
+div.statline>div>div,
+div.statline>div>div>div>div>div>form>button,
+a.comments,
+h1.title.white>a,
+h1.white,
+span.sentence-open.js-sentence-open,
+/* Comments */
+div.main.clearfix.pl3.ml3>p,
+/* Modal */
+div.NS_backings__info>div>a, div.text, div.backings-info__creator,
+div.backing-complete__checkbox, a.note-add
+  {
+    color: #ddd !important;
+  }
+
+  a.navy-600
+  {
+    color: #b7f7b4 !important;
+  }
+
+  span.bold.navy-600, span.bold, div.promo-title.green-dark.mb3
+  {
+    color: #ccc !important;
+  }
+
+
+/* Darker Text */
+  a.green-dark.text-underline
+  {
+    color: #070707 !important;
+  }
+
+  a.navy-700
+  {
+    color: #777 !important;
+  }
+
+  a.navy-900
+  {
+    color: #999 !important;
+  }
+
+  li.cycle-pager-active>a.navy-900
+  {
+    color: #fff !important;
+  }
+
+  a.navy-700:hover
+  {
+    color: #999 !important;
+  }
+
+  div.description
+  {
+    color: #999 !important;
+  }
+
+  div.founding-backer.community-block-content>div
+  {
+    color: #999 !important;
+  }
+
+  li>div
+  {
+    color: #bbb !important;
+  }
+
+/* Other Text Colors */
+/*div.left>div>a { color: #f14c28 !important }*/
+  div.left>div>a
+  {
+    color: #7f9bff !important;
+  }
+
+  .bg-grey-light
+  {
+    color: #333 !important;
+  }
+
+  strong
+  {
+    color: #222 !important;
+  }
+
+/* Dark Orange */
+
+
+
+
+  div.featured-project__blurb.ratio-16-9, div.project-stats-label.js-text,
+div.featured-project__blurb.ratio-16-9:after
+  {
+    color: #fff;
+    background-color: transparent !important;
+    background: transparent !important;
+  }
+
+  div.featured-project__title.ratio-16-9>a, h6.project-title>a
+  {
+    color: #4dc16e !important;
+  }
+
+
+/* Hover Colors */
+  .hover-bg-grey-200:hover
+  {
+    background-color: #363636 !important;
+  }
+
+  div.bg-white, section.bg-white
+  {
+    background-color: #212121;
+  }
+
+  ul.nav.f5.list>li>a, a.green-dark, a.black, h4.project-title.ellipsis>a,
+h2.f3.mb0.normal>a, h3.type-18.medium.lh4.mb2>a
+  {
+    color: #eee;
+  }
+
+  div.promo-container:hover
+  {
+    background-color: rgba(50,50,50,0.3) !important;
+  }
+
+  div.NS_watches__watch.js-watch, a.bttn.bttn-medium.bttn-shadow-light.w100p,
+div.basis50p.block-sm.bttn.bttn-medium.bttn-shadow-light.grow-1.hide.ml2.w100p
+  {
+    background-color: #010101;
+    color: #eee;
+    box-shadow: none;
+  }
+
+  div.NS_projects__project_nav.js-project-nav.skrollable.skrollable-between,
+div.NS_projects__project_nav.js-project-nav.skrollable.skrollable-after,
+a.tabbed-nav__link.type-14
+  {
+    background-color: transparent;
+    color: #999;
+  }
+
+  a.is-active.js-load-project-content
+  {
+    background-color: #3b3b3b;
+    color: #eee;
+  }
+
+  a.nowrap, a.medium
+  {
+    color: #eee;
+  }
+
+  figure>img
+  {
+    background-color: transparent !important;
+  }
+
+
+/* Large full width display for single project */
+
+
+
+/* Report Button - And other Buttons*/
+  a.bttn.bttn-medium.bttn-white.bttn-shadow,
+a.btn.btn--lighter-gray
+  {
+    background-color: #424242 !important;
+    color: #ccc !important;
+  }
+
+  .project-card, .navigation li a:hover
+  {
+    background: #222 !important;
+  }
+
+/* Like Button */
+  span.ksr-icon__heart
+  {
+    color: red !important;
+  }
+
+  button.btn--like
+  {
+    background-color: #111 !important;
+    color: red !important;
+  }
+/* See all button */ 
+  a.bttn,
+/* Show More Button */
+/* Follow Button */
+button.bttn,
+/* ALL THE BTTN's !!!! */
+div.bttn, .btn--border-gray,
+div.load_more>a
+{
+    color: #ccc !important;
+    background-color: #191919 !important;
+}
+/* Button Hover Attribute */
+/* See all button */ 
+a.bttn:hover,
+/* Show More Button */
+/* Follow Button */
+button.bttn:hover,
+/* ALL THE BTTN's !!!! */
+div.bttn:hover, .btn--border-gray:hover,
+div.load_more>a:hover
+  {
+    color: #999 !important;
+  }
+
+
+/* Remind me Button */
+  div.NS_watches__watch.js-watch
+  {
+    background-color: transparent !important;
+  }
+
+/* Projects we like "button" */
+  div.projects-we-love-badge.projects-we-love-badge--overlay,
+div.projects-we-love-badge.projects-we-love-badge--overlay>div.icon,
+div.projects-we-love-badge.projects-we-love-badge--overlay>div.icon>span.ksr-icon__heart
+  {
+    background-color: #2d9353 !important;
+    color: #e9e9e9 !important;
+  }
+
+
+/* Pop-ups */
+/* Remind me Notification */
+  div.jGrowl-notification,
+div.jGrowl-message
+  {
+    background-color: #1c1c1c !important;
+    color: #eee !important;
+  }
+
+/* Video/GIF Loading Dots */
+  div.loader-dots
+  {
+    background: #777 !important;
+  }
+
+  div>input.new-form__input--numbers.form-control.js-no-reward-form-input.js-form-input.pledge__no-reward__input.text
+  {
+    background-color: #555;
+  }
+
+  li.list-disc
+  {
+    background-color: #424242;
+    background: 0px 0px;
+    position: relative;
+  }
+
+  div#wiki-document-head>h1
+  {
+    color: #57b3db;
+  }
+
+/* All Links */
+  a[href^="https://www.kickstarter.com/"]
+  {
+    color: #e0e0e0 !important;
+  }
+
+/* Invert Colors */
+  section.hero.bg-cover.bg-center.center.pt8.pb8.pt12-md.pb0-md,
+img[src="https://static.kickstarter.com/assets/projects/learn/map-bdc6a70ced4a588e2ec21d605b20fc73ac37e37d24f53f677662e956c539e6c6.jpg"],
+svg.svg-icon__close
+  {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+  }
+/* Create a project header */
+  h1.normal_weight.type-60-md.mb3.mb7-sm, h4.grey-dark.mb3
+  {
+    color: #222 !important;
+  }
+}
+
+@-moz-document domain("kickstarter.com")
+{
+/* Header Stuff */
+/* Icons */ 
+  svg.svg-icon__search
+  {
+    fill: #eee !important;
+    background-color: #323232;
+  }
+
+/* Search Bar input field */
+  input.text
+  {
+    background-color: #999 !important;
+  }
+/*************/
+/* Front page slide show pane 1 */
+
+  div[data-theme="light-theme"],
+div[data-theme="light-theme"]>div>div>div>h1
+  {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+  }
+
+/* Slide 3 */
+  div.type-16.type-18-sm.navy-600
+  {
+    color: #fff !important;
+  }
+}
+
+@-moz-document domain("kickstarter.com")
+{
+/* Project Cards for displaying all projects */
+/* Remove white gradiant on card footer*/
+  div.project-card-footer
+  {
+    background: linear-gradient(to bottom, rgba(34,34,34,0) 0%, #181818 50%) !important;
+  }
+
+/* About the Creator */
+  div.modal_dialog_head>h4,
+span.ss-icon.ss-delete
+  {
+    background-color: #1e1e1e;
+    color: #eee;
+  }
+/* Individual Project Page */
+/* Pledges     that's it?*/
+div.project.projects.not-mobile.not-phone.not-mobile-safari.not-chrome-ios.not-forces-video-controls.not-tablet.not-ipad.not-iphone.not-ios.not-android.not-touchable.not-native-app-request.not-apple-pay-capable.not-android-pay-capable.responsive, div.pledge__info, div.pledge__hover,
+li.hover-group.js-reward-available.pledge--available.pledge-selectable-sidebar,
+li.pledge--no-reward
+{
+    background-color: #212121;
+}
+div.pledge__hover.hover-zoomout { background-color: rgba(43,222,115,0.23) !important; }
+h2.pledge__amount { color: #25CB68 !important; }
+/* Pledges, All Gone */
+li.hover-group.pledge--all-gone.pledge-selectable-sidebar {background-color: #331f1f !important}
+li.hover-group.pledge--all-gone.pledge-selectable-sidebar>div.pledge__hover.hover-zoomout {background-color: rgba(51, 31, 31, 0.8) !important}
+
+/* More ghost white gradients */
+div.pledge__reward-description-toggle.more:before 
+{
+ 	background: transparent !important;
+}
+.type-16.clamp-3::after, .job-listing ul li.clamp-3::after
+{
+    background: linear-gradient(to right, rgba(255,255,255,0), #212121 80%);
+}
+
+/*********/
+/*  Backed Project Page 
+       Backed Pledge    */
+.pledge--backed.pledge-selectable-sidebar, .pledge--backed.pledge-selectable-sidebar, .pledge__info
+{
+ 	background: #212121 !important;   
+}
+.pledge--backed, span.pledge--backed__label, div.modal_dialog_content
+{
+    background: #2d9353 !important;
+ 	border: 1px solid #2d9353;
+}
+/* Unbacked Pledges, on backed project page */
+li.pledge-selectable-sidebar
+{
+ 	background: #212121;   
+}
+/* Prototype Popup */
+div.supporting-material-callout__overlay-block
+{
+ 	background-color: #212121;   
+}
+p.blue-dark
+{
+ 	color: #ddd !important;   
+}
+
+/* Hover Color */
+a.js-view_your_pledge
+{
+	background-color: rgba(43,222,115,0.23) !important;
+}
+
+/* Converted Currancy Icon */
+svg.svg-icon__conversion
+{
+ 	background: #d4d4d4 !important;
+    filter: invert(1);
+}
+
+
+
+span.location-name, div.project-stats-value, .project-stats-label, ul.project-stats>li, ul.project-stats>li>div, ul.project-stats>li>span,
+a.inline-block.type-34.mb2.navy-700.hover-green-700.transition-all.js-do-link,
+a.inline-block.type-34.mb2.navy-700.hover-green-700.js-do-link,
+ul[role="tablist"]>li>a
+{
+    color: #eee;
+}
+
+
+/************************************/
+
+/* Updates Page */
+
+form.new_comment, form#new_comment
+{
+ 	background: #222;   
+}
+
+textarea#comment_body
+{
+ 	background-color: #444;   
+}
+
+div.timeline__divider--successful
+{
+    border-color: #111;
+}
+
+/************************************/
+}
+
+@-moz-document domain("kickstarter.com") {
+/* Common Background Colors, headers, text colors */
+
+.bg-grey-light { background-color: #444;    }
+
+/* Normal Text Styles, common headers */
+p.medium, .num-backers, .grey-dark,
+h1.normal, h2.normal, h3.normal, h4.normal, h5.normal, 
+h1.medium, h2.medium, h3.medium, h4.medium, h5.medium,
+h1.pledge__title, h2.pledge__title, h3.pledge__title, h4.pledge__title, h5.pledge__title,
+h2.mega, h2.title, div.user.mb3>p, h1,
+h3.dropdown-menu-header, strong.block,
+h4.mb3,
+label, a.normal, figcaption, time, li.list-disc, span.pledge__detail-info,
+a.grid-post.link>h2, a.grid-post.link>div,
+a.user-display__item__name, span.pledge__currency-conversion
+{
+    color: #ccc !important;
+    background-color: transparent !important;
+}
+
+.navy-600  { color: #aaa !important; }
+.link-grey-dark, p.user-display__item__location { color: #999 }
+.big_type, h3.col { color: #aaa !important; }
+strong { color: #070707 !important; }
+
+a.nav--subnav__item__link 
+{
+ 	color: #999;   
+}
+
+/* Settings Page */
+input#user_avatar, div.upload, textarea.textarea, input#user_slug, input#user_name, input#user_location_name,
+input#user_urls_attributes_-1_address
+{ background-color: #666 !important }
+}
+
+@-moz-document domain("kickstarter.com") {
+/* Extras */
+
+/* Change the look and feel of the scroll bar */
+::-webkit-scrollbar{
+    width: 14px;
+    height: 0px;
+    background-color: #555;
+}
+/* The Actual Bar itself */
+::-webkit-scrollbar-thumb {
+    background-color: #2d9353;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #25cb68;
+}
+/* Scroll Bar Buttons */
+::-webkit-scrollbar-button {
+    height: 16px;
+    background: #777;
+}
+::-webkit-scrollbar-button:hover {
+    background: #666;
+}
+
+
+
+/* Created by Marc Stocker */
+}
